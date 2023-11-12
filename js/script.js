@@ -545,11 +545,11 @@ function opener(){
             const piyasMealRemaining = members["01814843266"].runningRemainingDiningCost();
             const piyasMealDue       = members["01814843266"].runningDueDiningCost();
             document.getElementById("piyas").innerHTML = `<td>${piyas}</td><td>${piyasMealCost}</td><td class="bazar-amount">${piyasMealPaid}</td><td>${piyasMealRemaining}</td><td>${piyasMealDue}</td>`;
-            const masum              = members["01925315230"].name; 
-            const masumMealCost      = members["01925315230"].runningDiningCost();
-            const masumMealPaid      = members["01925315230"].runningAddedDining();
-            const masumMealRemaining = members["01925315230"].runningRemainingDiningCost();
-            const masumMealDue       = members["01925315230"].runningDueDiningCost();
+            const masum              = members["01834648400"].name; 
+            const masumMealCost      = members["01834648400"].runningDiningCost();
+            const masumMealPaid      = members["01834648400"].runningAddedDining();
+            const masumMealRemaining = members["01834648400"].runningRemainingDiningCost();
+            const masumMealDue       = members["01834648400"].runningDueDiningCost();
             document.getElementById("masum").innerHTML = `<td>${masum}</td><td>${masumMealCost}</td><td class="bazar-amount">${masumMealPaid}</td><td>${masumMealRemaining}</td><td>${masumMealDue}</td>`;
             const imran              = members["01640454889"].name; 
             const imranMealCost      = members["01640454889"].runningDiningCost();
