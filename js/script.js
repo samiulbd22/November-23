@@ -91,6 +91,33 @@ const members = {
         message:`<h2>Running due &nbsp;<strong style='color:red; font-weight: 600;'>${358} &nbsp;</strong>TK.</h2>
         <p>If this due doesn't clear before Eid-ul-Adha you couldn't run your dining before 10<sup>th</sup> July</p>`
     },
+    "01834648400":{
+        name:"Rafiqul Islam Piyas",
+        pre_previous_payable:2500,
+        previous_paid       :0,
+        previous_dining_cost:0,
+        payment             :undefined,
+        // running month
+        stay_cost       :2500,
+        garage_cost     :0,
+        running_payable :0,
+        running_paid    :0,
+        running_meal    :11,
+        // method calling
+        previousAddedDining,
+        previousDue,
+        previuosDiningRefound,
+        previousRemainingDue,
+        runningDue,
+        runningAddedDining,
+        runningDiningCost,
+        runningRemainingDiningCost,
+        runningDueDiningCost,
+        totalCost,
+        //memberMessage
+        message:`<h2>Running due &nbsp;<strong style='color:red; font-weight: 600;'>${358} &nbsp;</strong>TK.</h2>
+        <p>If this due doesn't clear before Eid-ul-Adha you couldn't run your dining before 10<sup>th</sup> July</p>`
+    },
     "01925315230":{
         name:"Masum",
         pre_previous_payable:5060,
@@ -429,7 +456,8 @@ function opener(){
         if(user_number === "01710430501" || user_number === "01814843266" 
         ||user_number === "01922362569" || user_number === "01532023080"
         || user_number === "01925315230" || user_number === "01640454889"
-        || user_number === "01738393696" || user_number === "01714443406"){
+        || user_number === "01738393696" || user_number === "01714443406"
+        || user_number === "01834648400"){
             document.getElementById("user-btn").classList.add("user-btn-show");
             const enterBtn = document.getElementById("user-btn-enter");
             enterBtn.addEventListener("click", messCalculate);
@@ -511,6 +539,12 @@ function opener(){
             const sonyMealRemaining = members["01532023080"].runningRemainingDiningCost();
             const sonyMealDue       = members["01532023080"].runningDueDiningCost();
             document.getElementById("sony").innerHTML = `<td>${sony}</td><td>${sonyMealCost}</td><td class="bazar-amount">${sonyMealPaid}</td><td>${sonyMealRemaining}</td><td>${sonyMealDue}</td>`;
+            const piyas              = members["01814843266"].name;
+            const piyasMealCost      = members["01814843266"].runningDiningCost();
+            const piyasMealPaid      = members["01814843266"].runningAddedDining();
+            const piyasMealRemaining = members["01814843266"].runningRemainingDiningCost();
+            const piyasMealDue       = members["01814843266"].runningDueDiningCost();
+            document.getElementById("piyas").innerHTML = `<td>${piyas}</td><td>${piyasMealCost}</td><td class="bazar-amount">${piyasMealPaid}</td><td>${piyasMealRemaining}</td><td>${piyasMealDue}</td>`;
             const masum              = members["01925315230"].name; 
             const masumMealCost      = members["01925315230"].runningDiningCost();
             const masumMealPaid      = members["01925315230"].runningAddedDining();
