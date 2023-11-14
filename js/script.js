@@ -19,7 +19,7 @@ const members = {
         garage_cost     :0,
         running_payable :2821,
         running_paid    :5000,
-        running_meal    :14,
+        running_meal    :15,
         // method calling
         previousAddedDining,
         previousDue,
@@ -47,7 +47,7 @@ const members = {
         garage_cost     :20,
         running_payable :2457,
         running_paid    :2000,
-        running_meal    :13,
+        running_meal    :14,
         // method calling
         previousAddedDining,
         previousDue,
@@ -75,7 +75,7 @@ const members = {
         garage_cost     :500,
         running_payable :2612,
         running_paid    :3500,
-        running_meal    :24,
+        running_meal    :26,
         // method calling
         previousAddedDining,
         previousDue,
@@ -102,7 +102,7 @@ const members = {
         garage_cost     :0,
         running_payable :0,
         running_paid    :0,
-        running_meal    :13,
+        running_meal    :15,
         // method calling
         previousAddedDining,
         previousDue,
@@ -129,7 +129,7 @@ const members = {
         garage_cost     :0,
         running_payable :4392,
         running_paid    :0,
-        running_meal    :17,
+        running_meal    :18,
         // method calling
         previousAddedDining,
         previousDue,
@@ -156,7 +156,7 @@ const members = {
         garage_cost     :0,
         running_payable :3422,
         running_paid    :6000,
-        running_meal    :22,
+        running_meal    :24,
         // method calling
         previousAddedDining,
         previousDue,
@@ -183,7 +183,7 @@ const members = {
         garage_cost     :0,
         running_payable :3392,
         running_paid    :5000,
-        running_meal    :21,
+        running_meal    :22,
         // method calling
         previousAddedDining,
         previousDue,
