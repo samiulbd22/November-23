@@ -6,7 +6,7 @@ const members = {
     runningMonth    :"November-23",
     previousMonth   :"October-23", // new add
     upComingMonth   :"December 1,2023",
-    runningMealRate :64,
+    runningMealRate :63,
 
     "01814843266":{
         name:"Istiaq Ahmad Udoy",
